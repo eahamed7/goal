@@ -71,7 +71,12 @@ header {
     border-radius: 10px;
     padding: 30px;
     margin-right: 24px;
+}
 
+.side-menu a {
+    text-decoration: none;
+    width: 180px;
+    height: 64px;
 }
 
 .button-menu {
@@ -141,6 +146,38 @@ header {
     color: rgba(22, 22, 22, 0.7);
     font-size: 16px;
     font-weight: 400;
+}
+
+/* Upcoming Matches */
+.match {
+    border: 2px solid #E8E8E8;
+    border-radius: 10px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    height: 200px;
+    width: 312px;
+    text-align: center;
+}
+
+.match-thumbnail {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.match-thumbnail h3 {
+    font-weight: 700px;
+    font-size: 16px;
+    color: #161616;
+    padding: 0 15px;
+}
+
+.match-time p {
+    padding-right: 20px;
+    color: rgba(22, 22, 22, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
 }
 
 /* Footer */
