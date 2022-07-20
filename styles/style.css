@@ -337,8 +337,7 @@ footer a {
         flex-direction: column;
         text-align: center;
         width: 334px;
-        margin: 20px;
-        margin-left: 80px;
+        margin: 10px;
         overflow: hidden;
         justify-content: space-around;
         align-items: center;
